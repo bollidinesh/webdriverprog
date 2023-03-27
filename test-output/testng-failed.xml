@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Regression1(failed)">
+    <classes>
+      <class name="hrmsjenkins.loginlogout">
+        <methods>
+          <include name="Tc001"/>
+        </methods>
+      </class> <!-- hrmsjenkins.loginlogout -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
