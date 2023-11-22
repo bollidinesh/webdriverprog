@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T11:49:19Z" name="Suite1" finished-at="2023-03-27T11:50:00Z" duration-ms="40949">
+  <suite started-at="2023-09-30T06:05:11Z" name="Suite1" finished-at="2023-09-30T06:05:55Z" duration-ms="44777">
     <groups>
     </groups>
-    <test started-at="2023-03-27T11:49:19Z" name="Regression1" finished-at="2023-03-27T11:50:00Z" duration-ms="40949">
+    <test started-at="2023-09-30T06:05:11Z" name="Nopackage" finished-at="2023-09-30T06:05:55Z" duration-ms="44777">
       <class name="hrmsjenkins.loginlogout">
-        <test-method signature="Tc001()[pri:0, instance:hrmsjenkins.loginlogout@4de4b452]" started-at="2023-03-27T17:19:19Z" name="Tc001" finished-at="2023-03-27T17:20:00Z" duration-ms="40929" status="PASS">
+        <test-method signature="Tc001()[pri:0, instance:hrmsjenkins.loginlogout@3fa247d1]" started-at="2023-09-30T11:35:11Z" name="Tc001" finished-at="2023-09-30T11:35:50Z" duration-ms="38944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc001 -->
       </class> <!-- hrmsjenkins.loginlogout -->
-    </test> <!-- Regression1 -->
+      <class name="hrmsjenkins.Addemployee">
+        <test-method is-config="true" signature="startup()[pri:0, instance:hrmsjenkins.Addemployee@3e44f2a5]" started-at="2023-09-30T11:35:11Z" name="startup" finished-at="2023-09-30T11:35:40Z" duration-ms="29917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="openapp()[pri:0, instance:hrmsjenkins.Addemployee@3e44f2a5]" started-at="2023-09-30T11:35:40Z" name="openapp" finished-at="2023-09-30T11:35:43Z" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login()[pri:0, instance:hrmsjenkins.Addemployee@3e44f2a5]" started-at="2023-09-30T11:35:43Z" name="login" finished-at="2023-09-30T11:35:48Z" duration-ms="5111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addemployee()[pri:0, instance:hrmsjenkins.Addemployee@3e44f2a5]" started-at="2023-09-30T11:35:48Z" name="addemployee" finished-at="2023-09-30T11:35:53Z" duration-ms="4691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method signature="logout()[pri:0, instance:hrmsjenkins.Addemployee@3e44f2a5]" started-at="2023-09-30T11:35:53Z" name="logout" finished-at="2023-09-30T11:35:53Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:hrmsjenkins.Addemployee@3e44f2a5]" started-at="2023-09-30T11:35:53Z" name="closeapp" finished-at="2023-09-30T11:35:55Z" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- hrmsjenkins.Addemployee -->
+    </test> <!-- Nopackage -->
   </suite> <!-- Suite1 -->
 </testng-results>

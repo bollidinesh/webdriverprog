@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" parallel="classes" thread-count="2">
+<parameter name="browser" value="firefox"/>
+ <parameter name="username" value="nareshit"/>
+<parameter name="password" value="nareshit"/>
+<parameter name="firstname" value="fydhljghgi"/>
+<parameter name="lastname" value="fyugjig"/>
+ 
+  <test name="Nopackage" >
+    <classes>
+        <class name="hrmsjenkins.Parameterpassing" />
+         <class name="hrmsjenkins.loginlogout" />
+    </classes>
+  </test>
+ 
+</suite>

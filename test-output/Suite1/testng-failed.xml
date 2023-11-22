@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite1]">
-  <test parallel="none" name="Regression1(failed)">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite1]">
+  <test parallel="classes" name="Nopackage(failed)">
     <classes>
+      <class name="hrmsjenkins.Addemployee">
+        <methods>
+          <include name="closeapp"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- hrmsjenkins.Addemployee -->
       <class name="hrmsjenkins.loginlogout">
         <methods>
           <include name="Tc001"/>
         </methods>
       </class> <!-- hrmsjenkins.loginlogout -->
     </classes>
-  </test> <!-- Regression1(failed) -->
+  </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

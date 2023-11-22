@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" parallel="tests" thread-count="2" >
+  <test name="Nopackage"  >
+    <classes>
+       <class name="hrmsjenkins.Addemployee" >
+       <methods>
+       <include name="Addemployee.startup"/>
+       <include name="Addemployee.openapp"/>
+       <include name="Addemployee.login"/>
+       <include name="Addemployee.addemployee"/>
+       <include name="Addemployee.logout"/>
+       <include name="Addemployee.closeapp"/>
+       </methods>
+       </class>
+    </classes>
+  </test>
+  <test name="Nopackag1e"  >
+    <classes>
+       <class name="hrmsjenkins.loginlogout" >
+      
+       </class>
+    </classes>
+  </test>
+ 
+</suite>

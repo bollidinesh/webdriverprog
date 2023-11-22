@@ -5,6 +5,7 @@
     <classes>
        <class name="hrmsjenkins.loginlogout" />
         <class name="hrmsjenkins.Addemployee" />
+        <class name="hrmsjenkins.DeleteCompanyLocation" />
     </classes>
   </test>
  

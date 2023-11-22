@@ -16,9 +16,10 @@ public class loginlogout {
 @Test
 public void Tc001()
 {
-driver=new EdgeDriver();
-System.setProperty("webdriver.edgedriver.driver", "D:\\Edgedrivers\\edgedriver.exe");
-
+//driver=new EdgeDriver();
+//System.setProperty("webdriver.edgedriver.driver", "D:\\Edgedrivers\\edgedriver.exe");
+	driver=new FirefoxDriver();
+	System.setProperty("webdriver.edgedriver.driver", "D:\\firefox driver\\geckodriver.exe");
 driver.get("http://183.82.103.245/nareshit/login.php");
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 driver.findElement(By.name("txtUserName")).sendKeys("nareshit");
